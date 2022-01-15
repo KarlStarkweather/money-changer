@@ -7,7 +7,7 @@
     <h3>Enter an amount and choose a currency:</h3>
     <label for="amount">Enter an amount in USD:</label>
     <input id="amount" type="number">
-    <select id="select">
+    <select id="currency">
       <option value="default">default</option>
       <option value="AFN">Afghanistani Afghani</option>
       <option value="CNY">Chinese Yuan Renminbi</option>
@@ -21,7 +21,11 @@
       <option value="AED">United Arab Emirates Dirham</option>
       <option value="EGP">Egyptian Pound</option>
       <option value="EUR">European Euro</option>
-
     </select>
-   </body>
+    <button class = "btn-success" type = "submit" id = "convert">Convert</button>
+    <div>
+      <div id ="result"></div>
+      <div id="errors"></div>
+    </div>
+  </body>
 </html>
