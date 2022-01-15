@@ -23,9 +23,13 @@ Enter a password and click [Accept Terms & Create API Key!]
 Follow directions to activate your account and copy your API key
 Open .env and enter 'API_KEY=' followed by your API key on the first line of the file
 Save and close .env
-
+Enter at the terminal:
+npm run start
+Enter a USD amount and select a currency to convert to
+click [Convert]
 
 ## known bugs:
+not displaying result yet
 
 ## License:
 Copyright (c) Karl Starkweather January 15, 2022
