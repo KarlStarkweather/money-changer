@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>Shape Tracker</title>
+    <title>Money Changer</title>
   </head>
   <body>
-    <h3>Enter three lengths to determine if they can make a triangle.</h3>
-    <form id="triangle-checker-form">
-      <label for="length1">Enter a number:</label>
-      <input id="length1" type="number">
-      <label for="length2">Enter a number:</label>
-      <input id="length2" type="number">
-      <label for="length3">Enter a number:</label>
-      <input id="length3" type="number">
-      <button type="submit">Submit</button>
-    </form>
-    <ul id="response"></ul>
-  </body>
+    <h3>Enter an amount and choose a currency:</h3>
+    <label for="amount">Enter an amount in USD:</label>
+    <input id="amount" type="number">
+    <select id="select">
+      <option value="default">default</option>
+      <option value="AFN">Afghanistani Afghani</option>
+      <option value="CNY">Chinese Yuan Renminbi</option>
+      <option value="INR">Indian Rupee</option>
+      <option value="IQD">Iraqi Dinar</option>
+      <option value="ILS">Israeli New Sheqel</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="KZT">Kazakhstani Tenge</option>
+      <option value="SAR">Saudi Arabian Riyal</option>
+      <option value="KRW">Korean (South) Won</option>
+      <option value="AED">United Arab Emirates Dirham</option>
+      <option value="EGP">Egyptian Pound</option>
+      <option value="EUR">European Euro</option>
+
+    </select>
+   </body>
 </html>
