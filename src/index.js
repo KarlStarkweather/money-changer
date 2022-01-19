@@ -18,6 +18,7 @@ $(document).ready(function() {
             const showResult = "The converted amount is: " + (rate * amount);
             console.log(showResult);
             $('#result').text = showResult;
+            alert(showResult);
           } else {
             $('#showErrors').text(`There was an error: ${response.message}`);
           }          

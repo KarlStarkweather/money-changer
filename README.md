@@ -10,26 +10,24 @@ This project converts a USD amount into a chosen currency, displaying the conver
 * API calls
 
 ## Setup Instructions
-Clone directory from repository at https://github.com/KarlStarkweather/money-changer
-At a terminal from the root directory of the project, enter:
-'npm install'
-Then when completed enter:
-'npm run build'
-Create a file to hold the API key by entering in the terminal:
-'touch .env'
-Go to https://www.exchangerate-api.com/
-Input your email address and click [Get Free Key!]
-Enter a password and click [Accept Terms & Create API Key!]
-Follow directions to activate your account and copy your API key
-Open .env and enter 'API_KEY=' followed by your API key on the first line of the file
-Save and close .env
-Enter at the terminal:
-npm run start
-Enter a USD amount and select a currency to convert to
-click [Convert]
+* Download and install software
+- Clone directory from repository at https://github.com/KarlStarkweather/money-changer
+- At a terminal from the root directory of the project, enter: ***npm install***
+- Then when completed enter: ***npm run build***
+* Download and install API key
+- Create a file to hold the API key by entering in the terminal: **touch.env**
+- Go to https://www.exchangerate-api.com/
+- Input your email address and click [Get Free Key!]
+- Enter a password and click [Accept Terms & Create API Key!]
+- Follow directions to activate your account and copy your API key
+- Open .env and enter ***API_KEY=*** followed by your API key on the first line of the file
+- Save and close .env
+* Enter at the terminal: ***npm run start***
+* Enter a USD amount and select a currency to convert to
+* click [Convert]
 
 ## known bugs:
-not displaying result yet
+not displaying result yet, result appears in console and is currently displayed as an alert
 
 ## License:
 Copyright (c) Karl Starkweather January 15, 2022
